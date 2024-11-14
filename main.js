@@ -1,6 +1,8 @@
+import { ScrollTrigger } from "gsap/all"
 import "./index.css"
 import gsap from "gsap"
-import { ScrollTrigger } from "gsap/all";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const frames = {
     currentIndex: 1,
@@ -13,8 +15,6 @@ const canvas = document.querySelector('canvas');
 const context = canvas.getContext("2d")
 const cards = document.querySelectorAll('.card');
 const projects = document.querySelectorAll('.project');
-
-gsap.registerPlugin(ScrollTrigger);
 
 window.addEventListener('mousemove', (e) => {
     const { clientX, clientY } = e
