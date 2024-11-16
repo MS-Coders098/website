@@ -850,6 +850,30 @@ video {
   background-image: url('./images/skill6.webp');
 }
 
+.bg-\[url\(\'\/images\/skill1\.webp\'\)\] {
+  background-image: url('/images/skill1.webp');
+}
+
+.bg-\[url\(\'\/images\/skill2\.webp\'\)\] {
+  background-image: url('/images/skill2.webp');
+}
+
+.bg-\[url\(\'\/images\/skill3\.webp\'\)\] {
+  background-image: url('/images/skill3.webp');
+}
+
+.bg-\[url\(\'\/images\/skill4\.webp\'\)\] {
+  background-image: url('/images/skill4.webp');
+}
+
+.bg-\[url\(\'\/images\/skill5\.webp\'\)\] {
+  background-image: url('/images/skill5.webp');
+}
+
+.bg-\[url\(\'\/images\/skill6\.webp\'\)\] {
+  background-image: url('/images/skill6.webp');
+}
+
 .bg-contain {
   background-size: contain;
 }
